@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="firstname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lastname" name="lname"><br>
+
+            <label for="lname">Date of birth:</label><br>
+            <input type="date" id="birthdate" name="lname"><br>
+
+            <p>Sex</p>
+            
+            <input name="sex" type="radio" id="male" value="Male">
+            <label for="male">Male</label><br>
+
+            <input name="sex" type="radio" id="female" value="Female">
+            <label for="female">Female</label><br>
+
+            <p>Type of account</p>
+
+            <input name="type" type="radio" id="artist" value="artist">
+            <label for="artist">artist</label><br>
+
+            <input  name="type" type="radio" id="follower" value="follower">
+            <label for="follower">follower</label><br>
+
+            <input type="button" onclick="sendRegisterRequest()" value="submit">
+        </form>
+        <script type="text/javascript" src="./register.js"></script>
+    </body>
+</html>
